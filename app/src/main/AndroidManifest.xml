@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="appdestro.com.tutorialsforandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen"
+            android:theme="@style/mytheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Tutorials For Android"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+
+
+
+
+
+
+        <receiver android:name=".fifth_51">
+            <intent-filter>
+                <action android:name="com.appdestro.customIntent">
+                </action>
+            </intent-filter>
+
+        </receiver>
+
+
+        <activity android:name=".quiz_main"></activity>
+
+        <activity android:name=".first"></activity>
+
+
+
+
+<activity android:name=".info1"></activity>
+
+        <activity android:name=".second_2"></activity>
+<activity android:name=".second_21"></activity>
+<activity android:name=".message"></activity>
+        <activity android:name=".third_3"></activity>
+        <activity android:name=".info3"></activity>
+        <activity android:name=".fourth"></activity>
+        <activity android:name=".info4"></activity>
+        <activity android:name=".fifth"></activity>
+        <activity android:name=".info5"></activity>
+        <activity android:name=".info6"></activity>
+        <activity android:name=".sixth"></activity>
+        <activity android:name=".sixth_61"></activity>
+        <activity android:name=".sixth_info"></activity>
+        <activity android:name=".tab2"></activity>
+        <activity android:name=".tab0"></activity>
+        <activity android:name=".seven"></activity>
+        <activity android:name=".tab7"></activity>
+
+
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

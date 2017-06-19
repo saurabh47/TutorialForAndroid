@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tutorials For Android</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="admob_interstitial_id">ca-app-pub-1681741257497840/2275318019</string>
+    <string name="admob_banner_id">ca-app-pub-1681741257497840/2855570811</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="titles">
+        <item>Animation</item>
+        <item>AlertBox</item>
+        <item>FloatingButton</item>
+        <item>Notification</item>
+        <item>BroadCastReceiver</item>
+        <item>Explicit/Implicit Intents</item>
+        <item>Frame Animation</item>
+    </string-array>
+
+
+    <string-array name="descriptions">
+        <item>animating the views</item>
+        <item>showing the alertbox</item>
+        <item>creating floating button</item>
+        <item>displaying notification</item>
+        <item>receving broadcast</item>
+        <item>using a explicit/implicit intent</item>
+        <item>aimating frames</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
